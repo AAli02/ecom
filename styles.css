@@ -48,7 +48,7 @@ li {
 
 h1 {
   font-size: 56px;
-  color: #7342d6;
+  color: #004999;
   margin-bottom: 24px;
   text-align: center;
 }
@@ -68,7 +68,7 @@ button:active {
 }
 
 .btn {
-  background-color: #7342d6;
+  background-color: #004999;
   color: white;
   padding: 12px 24px;
   font-size: 20px;
@@ -76,12 +76,13 @@ button:active {
   border: none;
 }
 
-.purple {
-  color: #7342d6;
+.blue {
+  color: #004999;
 }
 
 .logo {
   width: 160px;
+  filter: grayscale(1);
 }
 
 .nav__container {
@@ -98,7 +99,7 @@ button:active {
   margin-left: 16px;
   text-decoration: none;
   font-size: 20px;
-  color: #7342d6;
+  color: #004999;
   font-weight: bold;
   padding: 8px;
 }
@@ -108,7 +109,7 @@ button:active {
 }
 
 .nav__link--primary {
-  border: 2px solid #7342d6;
+  border: 2px solid #004999;
   border-radius: 4px;
 }
 
@@ -120,7 +121,7 @@ button:active {
   background-color: transparent;
   font-size: 40px;
   border: none;
-  color: #7342d6;
+  color: #004999;
   display: none;
 }
 
@@ -377,7 +378,7 @@ EXPLORE
 */
 
 #explore {
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: #bfe6ff7d;
 }
 
 /* 
@@ -421,7 +422,7 @@ BOOKS PAGE
 */
 
 #books__body {
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: #bfe6ff7d;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -462,7 +463,7 @@ select {
   justify-content: center;
   padding-top: 60px;
   font-size: 60px;
-  color: #7342d6;
+  color: #004999;
 }
 
 .books__loading--spinner {
