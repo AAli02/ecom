@@ -511,6 +511,13 @@ select {
   }
 }
 
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+
 
 /* SMALL PHONES, LARGE SMARTPHONES */
 @media (max-width: 550px) {
